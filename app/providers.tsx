@@ -7,7 +7,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { CacheProvider } from "@chakra-ui/next-js";
 import { ChakraProvider } from "@chakra-ui/react";
 
-import { iconparkUrl } from "./constants/icon";
+export const iconparkUrl =
+  "https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29249_4.74b2afd012c6146ba0472de7776191aa.js";
 
 const NullDevTool = () => null;
 const QueryClientDevTool =
