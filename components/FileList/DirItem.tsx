@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import {
   Accordion,
   AccordionButton,
@@ -8,10 +9,9 @@ import {
   Text,
 } from "@chakra-ui/react";
 
+import { TreeItem } from "@/api";
 import { Icon } from "../Icon";
 import FileList from "./index";
-import { TreeItem } from "./api";
-import { Suspense } from "react";
 
 interface DirItemProps {
   data: TreeItem;
