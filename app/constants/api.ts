@@ -1,1 +1,1 @@
-export const API_PATH = process.env.NODE_ENV === 'development' ? 'http://localhost:3018' : 'http://ntr-api.am.sb'
+export const API_PATH = process.env.NODE_ENV === 'development' ? 'http://localhost:3018' : 'https://ntr-api.am.sb'
